@@ -26,10 +26,12 @@
 // string="rahul"
 //  let p =array(string)
 //  console.log(p)   
-let names='dhananjay'
+/*let names='dhananjay'
 let array=names.split('')
 console.log(array)
   let reversearray=array.reverse()
  console.log(reversearray)
-// console.log(reversenames)
+// console.log(reversenames)*/
 
+const set=new set([1,1,2,3,2,4])
+console.log(set);

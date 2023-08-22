@@ -15,19 +15,17 @@
 //console.log(arr.pop(10))
 //console.log(arr.length)
 // unshif operation
-// var arr=["a","b","c",10]
-// console.log(arr)
-// console.log(arr.length)
-// console.log(arr.unshift("hi"))
-// console.log(arr)
-// console.log(arr.length)
+arr=["a","b",10]
+console.log(arr)
+console.log(arr.unshift("hii"))
+console.log(arr)
 // shift
-// var arr=["a","b","c",4]
-// console.log(arr)
+var arr=["a","b","c",4]
+console.log(arr)
 // console.log(arr.length)
-// console.log(arr.shift())
+ console.log(arr.shift())
 // console.log(arr.length)
-// console.log(arr)
+console.log(arr)
 //5].slice
 // var arr=["a","b","c",2]
 // let a=arr.slice(1,3)
@@ -165,7 +163,7 @@
 // console.log(arr)
 //16]reduce
 // //17] for each
-arr1=[1,2,3,4,5]
+//arr1=[1,2,3,4,5]
 // let output=arr1.forEach(function(el,index,arr){
 //     console.log(el+10)
 //     return el+10
@@ -207,12 +205,13 @@ arr1=[1,2,3,4,5]
                 //   })
                   //console.log(output)
                   //20]every(callingfunction,thisvalue)        // and operator are use
-                  let arr=[1,2,3,4,,5,6,67,8]
-                      let output=arr.every((el,index,arr)=>{
+                  //let arr=[1,2,3,4,,5,6,67,8]
+                      //let output=arr.every((el,index,arr)=>{
                     //console.log(el>5)
-                    return el>5
-                  })
-                  console.log(output)
+                    //return el>5
+                  //})
+                  //console.log(output)
                  // console.log(arr[1])
+                 
 
 
